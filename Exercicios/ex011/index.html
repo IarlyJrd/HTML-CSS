@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens dinamicas</h1>
+    <p>tente abrir o site em varios dispositivos com tamanhos de tela diferente ou simplesmente diminua e aumente a tela</p>
+    <picture>
+       <source media="(max-width:700px )" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px )" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagem flexivel">
+    </picture>
+    <h1>reproduzindo audio</h1>
+    <p>reproduzindo audios em HTML5</p>
+    <audio preload="metadata" audioplay controls loop>
+<source src="midia/Hotlanta - Track Tribe.mp3" type="audio/mpeg">
+<source src="midia/Hotlanta - Track Tribe.mp3" type="audio/ogg">
+<!-- existe o formato wav, mas não é recomendado por ter um grande tamanho -->
+<p>infelizmente seu navegador não consegue reproduzir audio <a href="midia/Hotlanta - Track Tribe.mp3"></a>clique aqui para baixar o audio</p>
+    </audio>
+
+    
+</body>
+</html>

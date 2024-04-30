@@ -1,0 +1,26 @@
+@charset "UTF-8";
+/* Seletores:Id em html e # em css; class em html e . em css */
+
+body{
+    background-color:rgb(228, 43, 43);
+   font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: black;
+}
+#principal{
+    background-color: azure;
+    text-align: center;
+}
+h2{
+    color: blue;
+}
+.basico{
+    color: yellow;
+}
+.intermediario{
+    color: blue;
+}
+.avançado{
+    color: greenyellow;
+}
